@@ -1,0 +1,1 @@
+This code attempts to use the `length` function on a list that may be empty, which will cause a runtime error.  Specifically, the error will occur when the list `xs` is empty because `head xs` will fail.
